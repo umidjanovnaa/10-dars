@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&family=Schoolbell&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    color: black;
+    font-weight: 550
+}
+
+header nav .nav-list .nav-item a{
+    color: black;
+    font-size: 20px;
+}
+
+header nav .nav-list .nav-item a:hover{
+    color: #0082F4;
+} 
+
+ button{
+    width: 161px;
+    height: 52px;
+    top: 36px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background: white;
+    top: 0;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 150px; 
+}
+
+.home .home-left{
+    width: 531px;
+}
+
+.home .home-left .home-text p{
+    font-size: 25px;
+    color: #0082F4;
+}
+
+.home .home-left .home-text h1{
+    font-size: 60px;
+    padding: 13px 0px;
+}
+
+.home .home-left .home-text h5{
+    font-size: 16px;
+    width: 436px;
+    padding: 13px 0px;
+}
+
+.home-btn{
+display: flex;
+gap: 20px;
+padding: 13px 0px;
+}
+
+.page2{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 90px;
+}
+
+.page2-left img{
+    width: 524.53px;
+    height: 548px;
+}
+
+.page2-right{
+    width: 548px;
+    height: 359px;
+}
+
+.page2-right h3{
+    color: #0082F4;
+    font-size: 25px;
+}
+
+.page2-right p{
+    font-size: 49px;
+    width: 474.76px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+
+.page2-right h4{
+    width: 481.46px;
+    font-size: 20px;
+    padding: 10px 0px;
+    padding-bottom: 30px;
+    font-weight: 400;
+}
+
+.page3-title{
+    text-align: center;
+    font-size: 48.44px;
+    margin-top: 150px;
+}
+
+.page3-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:90px ;
+    width: 1164px;
+}
+
+.page3-cards .page3-card{
+    text-align: center;
+    width: 324px;
+    height: 346px;
+}
+
+.page3-card h5{
+    font-size: 28px;
+    padding: 25px 0px;
+    padding-top: 50px;
+}
+
+.page3-card p{
+    font-size: 20px;
+}
+
+.email{
+    text-align: center;
+    background-color: #d8d8d8;
+    height: 300px;
+    padding:20px 0px ;
+}
+
+.email h1{
+    color: #0082F4;
+    font-size: 31.25px;
+    padding: 40px 0px;
+}
+
+.email p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.email .mail-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: solid 1px #0082F4;
+    margin: 90px 90px ;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.mail-logo button{
+    width: 102px;
+    height: 52px;
+    background: #0082F4;
+}
+
+.mail-logo p{
+    font-size: 20px;
+    align-items: center;
+    padding-top: 17px;
+}
+
+.footer{
+padding: 60px 0px;
+}
+
+.footer-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-card1 p{
+    padding: 5px 0px;
+}
+
+.footer-card h1{
+font-size: 25px;
+}
+
+.footer-card p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 0px;
+}
+
+.footer-end{
+    background-color: #058AFF;
+    width: 100%;
+    height: 120px;
+}
+
+.footer-end-txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.footer-end-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
